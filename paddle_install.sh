@@ -13,14 +13,11 @@ pip install paddlepaddle
 # gpu
 pip install paddlepaddle-gpu
 
-# pip install
-pip install paddleocr
+# pip dependencias:
+pip install paddleocr setuptools wheel
 
-# instalação dependencias
-pip install setuptools
-
-# garantir que ambiente está configurado
-pip install -U pip setuptools wheel
+# garantir que ambiente está configurado e atualizado
+pip install -U pip paddleocr setuptools wheel
 
 # Uso Paddle:
 paddleocr --image_dir doc/imgs_en/254.jpg --lang=pt # suporta en também no idioma
